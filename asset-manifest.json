@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/devhenode/Cite/static/css/main.d552a0f3.css",
-    "main.js": "/devhenode/Cite/static/js/main.6c702938.js",
-    "index.html": "/devhenode/Cite/index.html",
-    "main.d552a0f3.css.map": "/devhenode/Cite/static/css/main.d552a0f3.css.map",
-    "main.6c702938.js.map": "/devhenode/Cite/static/js/main.6c702938.js.map"
+    "main.css": "/Cite/static/css/main.d552a0f3.css",
+    "main.js": "/Cite/static/js/main.6c702938.js",
+    "index.html": "/Cite/index.html",
+    "main.d552a0f3.css.map": "/Cite/static/css/main.d552a0f3.css.map",
+    "main.6c702938.js.map": "/Cite/static/js/main.6c702938.js.map"
   },
   "entrypoints": [
     "static/css/main.d552a0f3.css",

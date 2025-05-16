@@ -90,7 +90,5 @@ app.post('/api/search', async (req, res) => {
   }
 });
 
-// Start server
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-}); 
+// Add this export for Vercel:
+export default app; 

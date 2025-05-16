@@ -19,7 +19,7 @@ const Citations: React.FC = () => {
   useEffect(() => {
     const fetchCitations = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/citations');
+        const response = await axios.get('/api/citations');
         setCitations(response.data);
       } catch (error) {
         console.error('Failed to fetch citations:', error);
@@ -33,7 +33,7 @@ const Citations: React.FC = () => {
 
   const removeCitation = async (id: string) => {
     try {
-      await axios.delete(`http://localhost:5000/api/citations/${id}`);
+      await axios.delete(`/api/citations/${id}`);
       setCitations(citations.filter(citation => citation.id !== id));
     } catch (error) {
       console.error('Failed to remove citation:', error);

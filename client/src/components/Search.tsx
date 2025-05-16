@@ -31,7 +31,7 @@ const Search: React.FC = () => {
     setError(null);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/search', {
+      const response = await axios.post('/api/search', {
         query,
         filters
       });
